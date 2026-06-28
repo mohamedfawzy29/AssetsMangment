@@ -11,7 +11,7 @@
         public async Task<CreateOrUpdateAssetResponse> CreateOrUpdateAssetAsync(CreateAssetRequest request)
         {
             var normalizedValue = AssetUtilities.NormalizeValue(request.Value);
-            var existingAsset = await _context.Assets.FirstOrDefaultAsync(a => a.Type == request.Type && AssetUtilities.NormalizeValue(a.Value) == normalizedValue);
+            var existingAsset = await _context.Assets.FirstOrDefaultAsync(a => a.Type == request.Type && a.Value == normalizedValue);
 
             if (existingAsset != null)
             {

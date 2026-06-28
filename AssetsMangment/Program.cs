@@ -53,6 +53,7 @@ namespace AssetsMangment
 
             builder.Services.AddScoped<IJwtService, JwtService>();
             builder.Services.AddScoped<IAssetService, AssetService>();
+            builder.Services.AddScoped<IAssetRelationshipService, AssetRelationshipService>();
 
             builder.Services.AddProblemDetails();
 
@@ -64,14 +65,18 @@ namespace AssetsMangment
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            // Auto-migrate on startup
+            using (var scope = app.Services.CreateScope())
             {
-                app.MapOpenApi();
-                app.MapScalarApiReference();
+                var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                db.Database.Migrate();
             }
 
-            app.UseHttpsRedirection();
+            // Configure the HTTP request pipeline.
+            app.MapOpenApi();
+            app.MapScalarApiReference();
+
+            //app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();

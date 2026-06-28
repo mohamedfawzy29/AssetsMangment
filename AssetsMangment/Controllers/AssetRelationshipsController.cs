@@ -8,9 +8,9 @@ namespace AssetsMangment.Controllers
     public class AssetRelationshipsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        private readonly AssetRelationshipService _service;
+        private readonly IAssetRelationshipService _service;
 
-        public AssetRelationshipsController(ApplicationDbContext context, AssetRelationshipService service)
+        public AssetRelationshipsController(ApplicationDbContext context, IAssetRelationshipService service)
         {
             _context = context;
             _service = service;
