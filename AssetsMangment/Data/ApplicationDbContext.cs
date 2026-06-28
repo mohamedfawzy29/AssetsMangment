@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using AssetsMangment.Models;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace AssetsMangment.Data
 {
@@ -12,6 +10,7 @@ namespace AssetsMangment.Data
         }
         public DbSet<Asset> Assets { get; set; }
         public DbSet<AssetRelationship> AssetRelationships { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -45,8 +44,8 @@ namespace AssetsMangment.Data
                 entity.Property(e => e.Metadata)
                     .HasConversion(
                         v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
-                        v => JsonSerializer.Deserialize<Dictionary<string, object>>(v, (JsonSerializerOptions?)null)
-                             ?? new Dictionary<string, object>()
+                        v => JsonSerializer.Deserialize<Dictionary<string, string>>(v, (JsonSerializerOptions?)null)
+                             ?? new Dictionary<string, string>()
                     )
                     .HasColumnType("jsonb");
             });

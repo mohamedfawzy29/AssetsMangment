@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace AssetsMangment.Models
 {
     public enum AssetType 
@@ -21,7 +20,8 @@ namespace AssetsMangment.Models
     {
         import,
         scan,
-        manual
+        manual,
+        external,
     }
     public class Asset
     {
@@ -35,7 +35,7 @@ namespace AssetsMangment.Models
         public DateTime LastSeen { get; set; }
         public AssetSource Source { get; set; }
         public List<string> Tags { get; set; } = [];
-        public Dictionary<string, object> Metadata { get; set; } = new Dictionary<string, object>(); 
+        public Dictionary<string, string> Metadata { get; set; } = new Dictionary<string, string>(); 
         public ICollection<AssetRelationship> OutgoingRelationships { get; set; } = new List<AssetRelationship>();
         public ICollection<AssetRelationship> IncomingRelationships { get; set; } = new List<AssetRelationship>();
     }

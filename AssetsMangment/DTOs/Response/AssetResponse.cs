@@ -1,8 +1,6 @@
-﻿using AssetsMangment.Models;
-
-namespace AssetsMangment.DTOs
+﻿namespace AssetsMangment.DTOs.Response
 {
-    public class AssetDto
+    public class AssetResponse
     {
         public Guid Id { get; set; }
         public AssetType Type { get; set; }
@@ -12,6 +10,6 @@ namespace AssetsMangment.DTOs
         public DateTime LastSeen { get; set; }
         public AssetSource Source { get; set; }
         public List<string> Tags { get; set; } = [];
-        public Dictionary<string, object> Metadata { get; set; } = new();
+        public Dictionary<string, string> Metadata { get; set; } = new();
     }
 }

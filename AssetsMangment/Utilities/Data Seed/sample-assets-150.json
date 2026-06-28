@@ -1,0 +1,1684 @@
+{
+  "assets": [
+    {
+      "type": "domain",
+      "value": "google.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Google"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "microsoft.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Microsoft"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "github.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Github"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "stackoverflow.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Stackoverflow"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "amazon.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Amazon"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "openai.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Openai"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "cloudflare.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Cloudflare"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "oracle.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Oracle"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "apple.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Apple"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "meta.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Meta"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "netflix.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Netflix"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "linkedin.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Linkedin"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "reddit.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Reddit"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "x.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "X"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "ubuntu.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Ubuntu"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "debian.org",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Debian"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "python.org",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Python"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "dotnet.microsoft.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Dotnet"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "kubernetes.io",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Kubernetes"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "docker.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Docker"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "nginx.org",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Nginx"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "postgresql.org",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Postgresql"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "mysql.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Mysql"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "digitalocean.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Digitalocean"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "vercel.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Vercel"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "gitlab.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Gitlab"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "atlassian.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Atlassian"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "dropbox.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Dropbox"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "zoom.us",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Zoom"
+      }
+    },
+    {
+      "type": "domain",
+      "value": "slack.com",
+      "source": "import",
+      "tags": [
+        "production",
+        "external"
+      ],
+      "metadata": {
+        "owner": "Slack"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.google.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "google.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.google.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "google.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.google.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "google.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.microsoft.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "microsoft.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.microsoft.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "microsoft.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.microsoft.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "microsoft.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.github.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "github.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.github.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "github.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.github.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "github.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.stackoverflow.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "stackoverflow.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.stackoverflow.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "stackoverflow.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.stackoverflow.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "stackoverflow.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.amazon.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "amazon.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.amazon.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "amazon.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.amazon.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "amazon.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.openai.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "openai.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.openai.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "openai.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.openai.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "openai.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.cloudflare.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "cloudflare.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.cloudflare.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "cloudflare.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.cloudflare.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "cloudflare.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.oracle.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "oracle.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.oracle.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "oracle.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.oracle.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "oracle.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.apple.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "apple.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.apple.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "apple.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.apple.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "apple.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "www.meta.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "meta.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "api.meta.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "meta.com"
+      }
+    },
+    {
+      "type": "subdomain",
+      "value": "mail.meta.com",
+      "source": "scan",
+      "tags": [
+        "web"
+      ],
+      "metadata": {
+        "parent": "meta.com"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.1",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.2",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.3",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.4",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.5",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.6",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.7",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.8",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.9",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.10",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.11",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.12",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.13",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.14",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.15",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.16",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.17",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.18",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.19",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.20",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.21",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.22",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.23",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.24",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.25",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.26",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.27",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.28",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.29",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "ip_address",
+      "value": "10.0.0.30",
+      "source": "scan",
+      "tags": [
+        "internal"
+      ],
+      "metadata": {
+        "segment": "corp"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Nginx",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Apache",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "IIS",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "ASP.NET Core",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Node.js",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "React",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Angular",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Vue",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "PostgreSQL",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "MySQL",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Redis",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Docker",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Kubernetes",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "RabbitMQ",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "ElasticSearch",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Grafana",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Prometheus",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Terraform",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Linux",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "technology",
+      "value": "Windows Server",
+      "source": "manual",
+      "tags": [
+        "tech"
+      ],
+      "metadata": {
+        "vendor": "Various"
+      }
+    },
+    {
+      "type": "service",
+      "value": "HTTP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "HTTPS",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "SSH",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "SMTP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "DNS",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "FTP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "SFTP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "RDP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "LDAP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "IMAP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "POP3",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "NTP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "SNMP",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "VPN",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "MySQL",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "PostgreSQL",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "Redis",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "MongoDB",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "RabbitMQ",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "service",
+      "value": "Kubernetes API",
+      "source": "scan",
+      "tags": [
+        "service"
+      ],
+      "metadata": {
+        "note": "detected"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-1",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-2",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-3",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-4",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-5",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-6",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-7",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-8",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-9",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-10",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-11",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-12",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-13",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-14",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-15",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-16",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-17",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-18",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-19",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    },
+    {
+      "type": "certificate",
+      "value": "Certificate-20",
+      "source": "scan",
+      "tags": [
+        "ssl"
+      ],
+      "metadata": {
+        "issuer": "Let's Encrypt"
+      }
+    }
+  ]
+}

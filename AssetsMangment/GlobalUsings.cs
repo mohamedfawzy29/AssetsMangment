@@ -1,0 +1,17 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using AssetsMangment.Data;
+global using AssetsMangment.DTOs.Request;
+global using AssetsMangment.DTOs.Response;
+global using AssetsMangment.DTOs.AuthResponse;
+global using AssetsMangment.DTOs.AuthRequst;
+global using AssetsMangment.Models;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using AssetsMangment.Utilities;
+global using AssetsMangment.Services.Interfaces;
+global using AssetsMangment.Services;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.AspNetCore.Identity;

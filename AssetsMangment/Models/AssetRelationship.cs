@@ -1,4 +1,5 @@
-﻿namespace AssetsMangment.Models
+﻿
+namespace AssetsMangment.Models
 {
     public enum RelationshipType
     {
