@@ -5,5 +5,6 @@
         public int Total { get; set; }
         public int Imported { get; set; }
         public int Duplicates { get; set; }
+        public int Failed { get; set; } = 0;
     }
 }

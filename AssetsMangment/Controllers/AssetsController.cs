@@ -104,23 +104,25 @@ namespace AssetsMangment.Controllers
             int imported = 0;
             int duplicates = 0;
 
-            var existingAssets = await _context.Assets.ToListAsync();
-
-            var existingAssetsDictionary = existingAssets.ToDictionary(a => (a.Type, AssetUtilities.NormalizeValue(a.Value)));
-
-            var requestAssets = new HashSet<(AssetType, string)>();
-
+            int failed = 0;
             foreach (var assetRequest in request.Assets)
             {
-                var result = await _assetService.CreateOrUpdateAssetAsync(assetRequest);
+                try
+                {
+                    var result = await _assetService.CreateOrUpdateAssetAsync(assetRequest);
 
-                if (result.IsCreated)
-                {
-                    imported++;
+                    if (result.IsCreated)
+                    {
+                        imported++;
+                    }
+                    else
+                    {
+                        duplicates++;
+                    }
                 }
-                else
+                catch
                 {
-                    duplicates++;
+                    failed++;
                 }
             }
 
@@ -130,7 +132,8 @@ namespace AssetsMangment.Controllers
             {
                 Total = total,
                 Imported = imported,
-                Duplicates = duplicates
+                Duplicates = duplicates,
+                Failed = failed
             };
 
             return Ok(response);

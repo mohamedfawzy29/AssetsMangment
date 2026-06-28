@@ -16,6 +16,7 @@
             if (existingAsset != null)
             {
                 existingAsset.LastSeen = DateTime.UtcNow;
+                existingAsset.Status = AssetStatus.active;
 
                 existingAsset.Tags = existingAsset.Tags
                     .Union(request.Tags)
